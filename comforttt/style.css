@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(jjj.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}   
+.menu-bar
+{
+    background-color: deepskyblue;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: azure;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.active, .menu-bar ul li:hover
+{
+    background: aquamarine;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
